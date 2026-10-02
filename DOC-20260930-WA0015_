@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Eniola Shojobi Portfolio</title>
+<style>
+:root{--bg:#f4f7f9;--card:#fff;--ink:#1e2933;--mute:#5b6772;--acc:#1b7f79;--soft:#bfd9d6;--navy:#12263f;--line:#d5dde3;--hero:#12263f;--herotxt:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1620;--card:#16222f;--ink:#e6edf3;--mute:#9fb0bf;--acc:#3fb5ad;--soft:#2c4a52;--navy:#cfe6e4;--line:#27384a;--hero:#0a1119}}
+:root[data-theme="dark"]{--bg:#0e1620;--card:#16222f;--ink:#e6edf3;--mute:#9fb0bf;--acc:#3fb5ad;--soft:#2c4a52;--navy:#cfe6e4;--line:#27384a;--hero:#0a1119}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.hero{background:var(--hero);color:var(--herotxt);padding:36px 20px 28px;border-bottom:4px solid var(--acc)}
+.wrap{max-width:820px;margin:0 auto}
+h1{margin:0;font-size:2rem;line-height:1.15;color:#fff}
+.sub{margin:6px 0 14px;color:#bfd9d6;font-size:1.05rem}
+.links a{display:inline-block;margin:0 14px 6px 0;color:#fff;text-decoration:underline;text-underline-offset:3px;word-break:break-all}
+main{padding:20px 16px 40px}
+section{margin:0 auto 18px;max-width:820px}
+h2{font-size:.8rem;letter-spacing:.09em;text-transform:uppercase;color:var(--acc);margin:22px 0 8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.card h3{margin:0 0 2px;font-size:1.25rem;color:var(--navy);line-height:1.25}
+.meta{color:var(--mute);font-size:.88rem;margin-bottom:10px}
+.card h4{margin:14px 0 4px;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--acc)}
+.card ul{margin:0;padding-left:1.1rem}.card li{margin:0 0 5px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin:14px 0}
+.stat{background:var(--bg);border-top:3px solid var(--acc);border-radius:8px;padding:8px 10px;text-align:center}
+.stat b{display:block;font-size:1.3rem;color:var(--navy)}.stat span{font-size:.78rem;color:var(--mute)}
+.bars{margin:12px 0}.bars .t{font-weight:600;font-size:.85rem;color:var(--navy);margin-bottom:6px}
+.row{display:flex;align-items:center;gap:8px;margin:5px 0;font-size:.82rem}
+.row .l{flex:0 0 108px;color:var(--mute)}
+.row .b{flex:1;background:var(--bg);border-radius:5px;height:18px;overflow:hidden}
+.row .b i{display:block;height:100%;background:var(--soft);border-radius:5px}
+.row .b i.h{background:var(--acc)}
+.row .v{flex:0 0 74px;text-align:right;color:var(--ink)}
+.note{font-size:.86rem;color:var(--mute);margin-top:10px}
+table{width:100%;border-collapse:collapse;font-size:.92rem}
+td,th{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--navy);width:34%}
+a{color:var(--acc)}
+footer{text-align:center;color:var(--mute);font-size:.8rem;padding:0 16px 30px}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<h1>Eniola Shojobi</h1>
+<p class="sub">Accounting Student | Data Analytics Portfolio</p>
+<div class="links"><a href="mailto:shojobie@gmail.com">shojobie@gmail.com</a><a href="https://linkedin.com/in/eniola-shojobi-638b75353">linkedin.com/in/eniola-shojobi-638b75353</a></div>
+</div></header>
+<main>
+<section>
+<h2>About me</h2>
+<div class="card"><p style="margin:0 0 12px">I'm an Accounting student with an interest in data analytics and using data to understand problems and support better decisions. I'm currently building my skills in SQL, Excel, Power BI, and Python through practical projects.</p>
+<table>
+<tr><th>Education</th><td>Accounting (300 level), Lagos State University (LASU)</td></tr>
+<tr><th>Training</th><td>DEC LASU Data Analytics Boot Camp, 2026: Excel, SQL, Python, Power BI and PowerPoint, ending with a team hackathon</td></tr>
+<tr><th>Focus</th><td>Financial analysis, data auditing and cleaning, dashboards, and turning numbers into clear recommendations</td></tr>
+</table></div>
+</section>
+
+<section>
+<h2>Project 1</h2>
+<div class="card">
+<h3>PTOG Financial Analysis &amp; Investment Advisory</h3>
+<div class="meta">DEC LASU Hackathon | Group 1 (Data Haven), Team Lead | May 2026 | Excel, PowerPoint, Word</div>
+<p style="margin:0">A private equity fund was considering a stake in Pepper Them Oil &amp; Gas Ltd. (PTOG), a Nigerian oil and gas company. Our team audited an uncleaned five-year dataset (FY2019 to FY2023), rebuilt the financial statements, analysed performance and made an investment recommendation.</p>
+<h4>What I did</h4>
+<ul>
+<li>Led a team of four through the data audit, reconstruction and reporting.</li>
+<li>Audited six raw datasets and logged <b>22 issues</b>: duplicates, NGN/USD mix-ups, missing values, misclassified items, mixed date formats and unit errors (11 resolved, 4 corrected, 3 estimated, 2 reclassified, 2 flagged).</li>
+<li>Estimated the missing FY2023 gas processing revenue at $79.4M using the average gas-to-oil revenue ratio (about 11.4%) and labelled it as an estimate.</li>
+<li>Reclassified interest received from investing to operating cash flow (IFRS) and flagged gaps the source data could not resolve rather than forcing them to balance.</li>
+<li>Rebuilt the income statement, balance sheet and cash flow statement, calculated ratios across six areas, and presented an advisory deck and written report.</li>
+</ul>
+<div class="stats">
+<div class="stat"><b>$827.7M</b><span>FY2023 revenue (from $371.7M in FY2020)</span></div>
+<div class="stat"><b>41.7%</b><span>FY2023 EBITDA margin</span></div>
+<div class="stat"><b>11.8×</b><span>Interest coverage, FY2023</span></div>
+<div class="stat"><b>$81.1M</b><span>FY2023 free cash flow</span></div>
+</div>
+<div class="bars" id="c1"></div>
+<div class="bars" id="c2"></div>
+<h4>Recommendation</h4>
+<p style="margin:0"><b>Cautious Accumulate.</b> Buy if Brent holds above $70/bbl and the auditors resolve the balance sheet gaps; hold if oil sits between $55 and $70 with a credible management explanation; review if the gaps widen or refinancing risk appears.</p>
+<p class="note"><b>Limitation.</b> Equity-based ratios use our corrected retained earnings, which leave the balance sheet check off in FY2020 to FY2023. If equity is anchored to assets minus liabilities, FY2023 debt-to-equity is about 0.60× rather than 0.46×. The deleveraging trend and the recommendation still hold.</p>
+</div>
+</section>
+
+<section>
+<h2>Project 2</h2>
+<div class="card">
+<h3>Bootcamp Financial Model &amp; Competitive Analysis</h3>
+<div class="meta">Datacraft Hub | Data Analytics Internship | September 2026 | Excel, Word, PowerPoint</div>
+<p style="margin:0">Datacraft Hub planned a free, three-month weekend Data Analytics Bootcamp for 50 participants. Management needed to know the cost, whether the financial model could be trusted, how it compared with competitors, and how sponsors could fund it.</p>
+<h4>What I did</h4>
+<ul>
+<li>Built a cohort financial model and presentation: 15 facilitators at ₦50,000 each, marketing ₦70,000, administration ₦50,000 and materials ₦25,000 per participant.</li>
+<li>Audited the workbook and found integrity issues: currency labelled "$" while values were in naira, durations that did not match the three-month programme, a per-participant cost that did not scale with enrolment, and a "Processing Fees" line carrying the ₦1.5M expected revenue figure, which pushed total cost to ₦2,395,000.</li>
+<li>Benchmarked four Nigerian training providers on price, duration and inclusions, mapped a ₦4.1M sponsorship pipeline, and wrote a report with recommendations and KPIs.</li>
+</ul>
+<div class="bars" id="c3"></div>
+<h4>Key findings</h4>
+<ul>
+<li>A free programme sits below paid competitors' published prices (₦75,000 to ₦150,000 and up), so sustainability depends on sponsorship.</li>
+<li>Competitors bundle projects, mentorship and job-readiness support, so Datacraft should compete on visible outcomes, not price alone.</li>
+<li>Correct the model before management relies on it, and treat the ₦4.1M as a pipeline target, not guaranteed income.</li>
+</ul>
+</div>
+</section>
+
+<section>
+<h2>Project 3</h2>
+<div class="card">
+<h3>Retail Sales Analysis (Excel Graded Assessment)</h3>
+<div class="meta">DEC LASU Data Analytics Boot Camp | 2026 | Excel</div>
+<p style="margin:0">Analysed 12 retail orders across four cities and three product categories to explain what drives sales.</p>
+<h4>What I did</h4>
+<ul>
+<li>Built calculated fields: total sales, an IF-based high/low performance tag, first names with LEFT and FIND, and region managers with VLOOKUP.</li>
+<li>Summarised results with SUM, AVERAGE, COUNT, COUNTIF and SUMIF, and built three PivotTables with charts.</li>
+</ul>
+<div class="stats">
+<div class="stat"><b>₦1.53M</b><span>Total sales</span></div>
+<div class="stat"><b>17.0%</b><span>Profit margin</span></div>
+<div class="stat"><b>84.8%</b><span>Sales from Electronics</span></div>
+<div class="stat"><b>79.2%</b><span>Sales from Lagos</span></div>
+</div>
+<div class="bars" id="c4"></div>
+<h4>Key insight</h4>
+<p style="margin:0">Sales are highly concentrated. Only 3 of the 12 orders were tagged high performance (profit above ₦30,000), yet they produced about 65% of both sales and profit.</p>
+</div>
+</section>
+
+<section>
+<h2>Project 4</h2>
+<div class="card">
+<h3>Python Foundations (Google Colab)</h3>
+<div class="meta">DEC LASU Data Analytics Boot Camp | 2026 | Python</div>
+<p style="margin:0">Five practical tasks: variables with formatted output, a total (277) and average (92.33) from three test scores, an attendance percentage (18 of 24 classes = 75%), type conversion, and a conditional to classify a score.</p>
+</div>
+</section>
+
+<section>
+<h2>Skills</h2>
+<div class="card"><table>
+<tr><th>Data cleaning &amp; auditing</th><td>Finding duplicates, missing values and currency or unit mix-ups; documenting every change in an audit log; flagging what cannot be resolved.</td></tr>
+<tr><th>Financial analysis</th><td>Rebuilding financial statements; ratio analysis across profitability, liquidity, solvency, efficiency and cash flow quality; investment recommendations.</td></tr>
+<tr><th>Excel</th><td>PivotTables and charts, VLOOKUP, IF, SUMIF/COUNTIF, text functions, linked multi-sheet models.</td></tr>
+<tr><th>Communication</th><td>PowerPoint presentations, written reports and team leadership.</td></tr>
+<tr><th>Currently building</th><td>SQL, Power BI, Python (pandas and Matplotlib).</td></tr>
+</table></div>
+</section>
+
+<section>
+<h2>Contact</h2>
+<div class="card"><a href="mailto:shojobie@gmail.com">shojobie@gmail.com</a><br><a href="https://linkedin.com/in/eniola-shojobi-638b75353">linkedin.com/in/eniola-shojobi-638b75353</a></div>
+</section>
+</main>
+<footer>Eniola Shojobi | Data Analytics Portfolio</footer>
+<script>
+function bars(id,title,items,max){var el=document.getElementById(id);if(!el)return;var h='<div class="t">'+title+'</div>';
+items.forEach(function(x){h+='<div class="row"><span class="l">'+x[0]+'</span><span class="b"><i class="'+(x[3]?'h':'')+'" style="width:'+Math.max(2,x[1]/max*100)+'%"></i></span><span class="v">'+x[2]+'</span></div>'});el.innerHTML=h}
+bars('c1','Revenue (USD M)',[['FY2019',561.9,'562'],['FY2020',371.7,'372'],['FY2021',469.5,'470'],['FY2022',718.3,'718'],['FY2023',827.7,'828',1]],830);
+bars('c2','Long-term debt (USD M)',[['FY2019',320,'320'],['FY2020',310,'310'],['FY2021',285,'285'],['FY2022',260,'260'],['FY2023',235,'235',1]],330);
+bars('c3','Published participant price (₦)',[['Piston &amp; Fusion',150,'from 150,000'],['Segun Umoru',99,'from 99,000'],['Dayfigurez',75,'75,000'],['Webbo3',2,'Free*'],['Datacraft Hub',2,'Free',1]],150);
+bars('c4','Sales by category and region (₦ thousand)',[['Electronics',1300,'1,300',1],['Fashion',169,'169'],['Groceries',64,'64'],['Lagos',1214,'1,214',1],['Abuja',225,'225'],['Ibadan',49,'49'],['Port Harcourt',45,'45']],1300);
+</script>
+</body>
+</html>
